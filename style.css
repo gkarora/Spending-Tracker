@@ -1,0 +1,49 @@
+.expense.selected {
+    background:red;
+    color:white;            
+}
+.expense.getSum.selected {
+    background: lightgrey;
+    color: white;
+}
+input[type="date"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.amount{
+    font-size: 16px;
+}
+
+.tinyLabel{
+    font-size: 12px;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.label{
+    font-size: 16px;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.info{
+    color: black;
+}
+
+table{
+    border-spacing: 20px;
+}
+.warning{
+    color: red;
+    text-align: center;
+}
+
+.message{
+    text-align: center;
+    font-size: 14px;
+}
